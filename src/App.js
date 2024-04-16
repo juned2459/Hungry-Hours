@@ -12,8 +12,8 @@ import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
 
 const Grocery = lazy(() => import("./components/Grocery"));
-
 const About = lazy(() => import("./components/About"));
+
 
 const App = () => {
   const [userName, setUserName] = useState();
